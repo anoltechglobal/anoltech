@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anoltechglobal.github.io/anoltech/sitemap.xml
