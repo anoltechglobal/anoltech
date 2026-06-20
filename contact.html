@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — ANOLTECH GLOBAL</title>
+<meta name="description" content="Get in touch with ANOLTECH GLOBAL for device repairs, sales, or to book the media studio.">
+<meta name="theme-color" content="#0B1014">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact — ANOLTECH GLOBAL">
+<meta property="og:description" content="Reach ANOLTECH GLOBAL in Owode, Ede, Osun State for device repairs, sales, or to book the media studio.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Contact — ANOLTECH GLOBAL">
+<meta name="twitter:description" content="Get in touch for device repairs, sales, or to book the media studio.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap">
+    <a href="index.html" class="brand">ANOLTECH<span class="dot">.</span><span class="sub">Global</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="repairs.html">Repairs</a></li>
+      <li><a href="studio.html">Media Studio</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="contact.html" class="nav-cta">Book a service</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="eyebrow">Contact</div>
+      <h1>Tell us what you need fixed,<br>or what you're putting on air.</h1>
+      <p class="hero-sub muted">Reach out for a repair quote, a question about stock, or to check studio availability — we'll get back to you with next steps.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid-2">
+
+      <form class="form-grid" id="contact-form" action="https://formspree.io/f/xrewzgja" method="POST">
+        <input type="hidden" name="_subject" value="New enquiry from Anoltech Global website">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+        <div class="form-field">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel" placeholder="e.g. 080 0000 0000" required>
+        </div>
+        <div class="form-field full">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-field full">
+          <label for="reason">What do you need?</label>
+          <select id="reason" name="reason">
+            <option>Device repair quote</option>
+            <option>Buy a device or accessory</option>
+            <option>Book the media studio</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="form-field full">
+          <label for="message">Details</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about the device, the issue, or the session you're planning." required></textarea>
+        </div>
+        <div class="form-field full">
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status muted" id="form-status" style="margin-top:14px;"></p>
+        </div>
+      </form>
+
+      <div class="contact-info-card">
+        <div class="row">
+          <span class="k">Visit</span>
+          <span class="muted">Owode, Ede, Osun State</span>
+        </div>
+        <div class="row">
+          <span class="k">Call</span>
+          <span class="muted">+234 906 115 3854<br>+234 815 157 3577</span>
+        </div>
+        <div class="row">
+          <span class="k">Email</span>
+          <span class="muted">folorunshoanol@gmail.com</span>
+        </div>
+        <div class="row">
+          <span class="k">Hours</span>
+          <span class="muted">Open 24 hours, daily — closed Sundays</span>
+        </div>
+        <div class="row">
+          <span class="k">Studio</span>
+          <span class="muted">Booked by appointment — same-day slots subject to availability.</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h5>Anoltech Global</h5>
+        <p>Device sales, expert repairs, and a professional media studio — under one roof.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="repairs.html">Repairs</a>
+      </div>
+      <div class="footer-col">
+        <h5>Studio</h5>
+        <a href="studio.html">Livestreaming</a>
+        <a href="studio.html">Podcast rooms</a>
+        <a href="contact.html">Book a session</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="contact.html">Get in touch</a>
+        <a href="contact.html">Visit us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="js-year"></span> Anoltech Global. All rights reserved.</span>
+      <span>Built for devices that work and signals that don't drop.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
